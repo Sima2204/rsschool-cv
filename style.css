@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  width: 100%;
 }
 
 .nav {
@@ -163,6 +164,10 @@ main {
   margin: 10px 20px 10px 20px;
 }
 
+.projects {
+  margin: 10px 20px 10px 20px;
+}
+
 .skills {
   margin: 10px 20px 10px 20px;
 }
@@ -217,4 +222,10 @@ main {
   font-size: 16px;
   font-weight: bold;
   padding: 42px 0px 42px 0px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
